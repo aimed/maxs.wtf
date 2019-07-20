@@ -4,7 +4,7 @@ export default function() {
   return (
     <Post title="Graph databases for access control">
       <div>
-        References:
+        <h4>References</h4>
         <ol>
           <li>
             <a href="https://neo4j.com/blog/access-control-lists-the-graph-database-way/">Link</a>

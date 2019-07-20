@@ -18,7 +18,15 @@
   font-style: normal;
 }
 
-/* https://coolors.co/app/ffbc42-d81159-8f2d56-218380-44cfcb */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  @apply text-gray-800;
+  font-family: 'Lora', serif;
+  overflow-x: hidden;
+}
+
 h1 {
   @apply text-6xl;
   font-family: 'sans-joseregular';
@@ -34,11 +42,21 @@ h3 {
   font-family: 'sans-joseregular';
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  @apply text-gray-800;
-  font-family: 'Lora', serif;
-  overflow-x: hidden;
+h4 {
+  @apply text-3xl;
+  font-family: 'sans-joseregular';
+}
+
+h5 {
+  @apply text-2xl;
+  font-family: 'sans-joseregular';
+}
+
+h6 {
+  @apply text-xl;
+  font-family: 'sans-joseregular';
+}
+
+a {
+  @apply underline;
 }
