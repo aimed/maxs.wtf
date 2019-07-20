@@ -1,15 +1,18 @@
-import '../styles/index.css';
-import Head from 'next/head';
+import Link from 'next/link'
+import Page from '../components/Page'
 
-function Index() {
+export default function Index() {
   return (
-    <main>
-      <Head>
-        <title>max's wtf</title>
-      </Head>
-      <h1>max's wtf</h1>
-    </main>
-  );
+    <Page title="max's wtf">
+      <section className="p-2 mt-5 mb-5 relative">
+        <h2>Hi. I'm Max.</h2>
+        <p>This is a collection of random thoughts.</p>
+        <div className="bg-gray-200 absolute top-0 bottom-0 w-screen" style={{ zIndex: -1 }} />
+      </section>
+      <h6>Posts:</h6>
+      <Link href="/posts/2019-07-20-graph-databases-for-access-control">
+        <a>Graph databases for access control</a>
+      </Link>
+    </Page>
+  )
 }
-
-export default Index;
