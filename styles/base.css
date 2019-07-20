@@ -40,4 +40,5 @@ body {
   padding: 0;
   @apply text-gray-800;
   font-family: 'Lora', serif;
+  overflow-x: hidden;
 }
