@@ -1,0 +1,62 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'sans-joseregular';
+  src: url('/static/fonts/sans-jose-regular-webfont.woff2') format('woff2'),
+    url('/static/fonts/sans-jose-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lora';
+  src: url('/static/fonts/Lora-Regular-webfont.woff2') format('woff2'),
+    url('/static/fonts/Lora-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  @apply text-gray-800;
+  font-family: 'Lora', serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  @apply text-6xl;
+  font-family: 'sans-joseregular';
+}
+
+h2 {
+  @apply text-5xl;
+  font-family: 'sans-joseregular';
+}
+
+h3 {
+  @apply text-4xl;
+  font-family: 'sans-joseregular';
+}
+
+h4 {
+  @apply text-3xl;
+  font-family: 'sans-joseregular';
+}
+
+h5 {
+  @apply text-2xl;
+  font-family: 'sans-joseregular';
+}
+
+h6 {
+  @apply text-xl;
+  font-family: 'sans-joseregular';
+}
+
+a {
+  @apply underline;
+}

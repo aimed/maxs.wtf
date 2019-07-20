@@ -1,15 +1,14 @@
-import '../styles/index.css';
-import Head from 'next/head';
+import Page from '../components/Page'
 
-function Index() {
+export default function Index() {
   return (
-    <main>
-      <Head>
-        <title>max's wtf</title>
-      </Head>
-      <h1>max's wtf</h1>
-    </main>
-  );
+    <Page title="max's wtf">
+      <section className="p-2 mt-10 mb-5 relative">
+        <h2 className="pb-0">Hi. I'm Max.</h2>
+        <p>Software Engineer / guy on the internet.</p>
+        <p>This is a collection of random thoughts.</p>
+        <div className="bg-green-200 absolute top-0 bottom-0 w-screen" style={{ zIndex: -1 }} />
+      </section>
+    </Page>
+  )
 }
-
-export default Index;
