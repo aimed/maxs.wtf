@@ -1,5 +1,5 @@
 import Page from '../components/Page'
-import { GitHub, Linkedin } from 'react-feather'
+import { GitHub, Linkedin, Twitter } from 'react-feather'
 
 export default function Index() {
   return (
@@ -13,13 +13,17 @@ export default function Index() {
       </section>
       <small className="text-gray-700">
         Also find me here:
-        <a href="https://github.com/aimed" className="ml-2">
+        <a href="https://github.com/aimed/" className="ml-2">
           GitHub
           <GitHub className="inline h-4 w-auto ml-1" />
         </a>
         <a href="https://www.linkedin.com/in/maximilian-t%C3%A4schner-564358161/" className="ml-2">
           LinkedIn
           <Linkedin className="inline h-4 w-auto ml-1" />
+        </a>
+        <a href="https://twitter.com/maxswtf/" className="ml-2">
+          Twitter
+          <Twitter className="inline h-4 w-auto ml-1" />
         </a>
       </small>
     </Page>
