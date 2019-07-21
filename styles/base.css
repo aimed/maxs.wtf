@@ -8,6 +8,7 @@
     url('/static/fonts/sans-jose-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: optional;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
     url('/static/fonts/Lora-Regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: optional;
 }
 
 html,
