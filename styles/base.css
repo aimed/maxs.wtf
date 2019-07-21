@@ -25,6 +25,8 @@ body {
   @apply text-gray-800;
   font-family: 'Lora', serif;
   overflow-x: hidden;
+  min-height: 100%;
+  min-height: 100vh;
 }
 
 h1 {
