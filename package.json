@@ -12,7 +12,8 @@
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.5.3",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-feather": "^2.0.3"
   },
   "devDependencies": {
     "@types/node": "^12.6.8",
